@@ -3,8 +3,16 @@
     padding-top: 1rem;
     width: 100%;
     text-align: left;
-    gap: 15rem;
+    gap: 10rem;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+}
+
+.scoreTrackerContainer .scoreTracker {
+    width: 200px;
+}
+
+.scoreTrackerContainer h2 {
+    width: 200px;
 }
