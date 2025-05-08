@@ -1,0 +1,10 @@
+.scoreTrackerContainer {
+    display: flex;
+    padding-top: 1rem;
+    width: 100%;
+    text-align: left;
+    gap: 15rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
