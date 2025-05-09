@@ -2,13 +2,13 @@
     flex: 1;
     width: 80vw;
     min-width: 600px;
-    aspect-ratio: 2 / 1;
     margin: 2vh auto;
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4, 300px);
     grid-template-rows: 200px;
     grid-auto-rows: 200px;
     justify-content: center;
+    background-color: red;
 }
 
 .card {
