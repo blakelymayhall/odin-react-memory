@@ -16,7 +16,7 @@ function Card({ handleCardClicked, cardData }) {
             setImg(cached);
         } else {
             console.log("Loaded Gif from API");
-            fetch(`https://api.giphy.com/v1/gifs/${cardData.cardImgID}?api_key=jjXVUHEiyua09P52OGJDmad1dCUMLokG`)
+            fetch(`https://api-proxy.blakely-c-mayhall.workers.dev?q=${cardData.cardImgID}`)
                 .then((res) => res.json())
                 .then((data) => {
                     let imgURL = data.data.images.original.url;
